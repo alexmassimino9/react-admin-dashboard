@@ -17,7 +17,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 const Topbar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const colorModes = useContext(ColorModeContext);
+  const colorMode = useContext(ColorModeContext);
   return (
     <Box display="flex" justifyContent={"space-between"}>
       {/* SEARCH BAR */}
@@ -27,7 +27,24 @@ const Topbar = () => {
         border-radius="3px"
       >
         <InputBase sx={{ ml: 2, flex: 1 }} placeholder={"Search"} />
-        <SearchOutlinedIcon />
+        <IconButton type="button">
+          <SearchOutlinedIcon />
+        </IconButton>
+      </Box>
+      {/* ICONS */}
+      <Box display="flex">
+        <IconButton>
+          <LightModeOulinedIcon onClick={colorMode.toggleColorMode} />
+        </IconButton>
+        <IconButton>
+          <NotificationsOutlinedIcon />
+        </IconButton>
+        <IconButton>
+          <SettingsOutlinedIcon />
+        </IconButton>
+        <IconButton>
+          <PersonOutlinedIcon />
+        </IconButton>
       </Box>
     </Box>
   );
