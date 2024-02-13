@@ -38,23 +38,23 @@ const Sidemenu = () => {
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState("Dashboard");
-
+  console.log("selected: ", selected);
   return (
     <Box
       sx={{
-        "& .pro-sidebar-inner": {
+        "& .css-dip3t8": {
           background: `${colors.primary[400]} !important`,
         },
-        "& .pro-icon-wrapper": {
+        "& .ps-menu-icon": {
           backgroundColor: "transparent !important",
         },
-        "& .pro-inner-item": {
-          padding: "5px 35px 5px 20px !important",
+        "& .ps-menu-button": {
+          // padding: "5px 35px 5px 20px !important",
         },
-        "& .pro-inner-item:hover": {
+        "& .ps-menu-button:hover": {
           color: "#868dfb !important",
         },
-        "& .pro-menu-item.active": {
+        "& .ps-active": {
           color: "#6870fa !important",
         },
       }}
@@ -167,7 +167,6 @@ const Sidemenu = () => {
               setSelected={setSelected}
             />
             <Item
-              border="2px solid red;"
               title="Calendar"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
