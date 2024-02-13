@@ -125,7 +125,7 @@ const Sidemenu = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.grey[600]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Data
@@ -154,7 +154,7 @@ const Sidemenu = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.grey[600]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Pages
@@ -184,7 +184,7 @@ const Sidemenu = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.grey[600]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Charts

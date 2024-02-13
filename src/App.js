@@ -7,7 +7,6 @@ import {
   Team,
   Invoices,
   Contacts,
-  Dashboard,
   Bar,
   Form,
   Line,
@@ -16,6 +15,7 @@ import {
   Geography,
   Calendar,
   Sidemenu,
+  Dashboard,
 } from "./views/";
 const App = () => {
   const [theme, colorMode] = useMode();
@@ -28,7 +28,7 @@ const App = () => {
           <main className="content">
             <Topbar />
             <Routes>
-              {/* <Route path="/" element={<Dashboard />} /> */}
+              <Route path="/" element={<Dashboard />} />
               {/* <Route path="/team" element={<Team />} /> */}
               {/* <Route path="/contacts" element={<Contacts />} /> */}
               {/* <Route path="/invoices" element={<Invoices />} /> */}
