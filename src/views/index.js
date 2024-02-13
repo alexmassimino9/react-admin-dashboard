@@ -1,3 +1,3 @@
-import { Sidebar, Topbar } from "./global";
+import { Sidemenu, Topbar } from "./global";
 import { Dashboard } from "./dashboard";
-export { Sidebar, Topbar, Dashboard };
+export { Sidemenu, Topbar, Dashboard };

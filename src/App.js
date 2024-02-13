@@ -15,7 +15,7 @@ import {
   FAQ,
   Geography,
   Calendar,
-  Sidebar,
+  Sidemenu,
 } from "./views/";
 const App = () => {
   const [theme, colorMode] = useMode();
@@ -24,7 +24,7 @@ const App = () => {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <Sidebar />
+          <Sidemenu />
           <main className="content">
             <Topbar />
             <Routes>
