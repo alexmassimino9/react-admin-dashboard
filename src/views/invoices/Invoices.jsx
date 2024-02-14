@@ -45,7 +45,7 @@ const Invoices = () => {
   ];
   return (
     <Box m="20px">
-      <Header title="Invoices" subtitle="List of contacts for reference" />
+      <Header title="Invoices" subtitle="Keep Track of All invoices" />
       <Box
         m="40px 0 0 0"
         height="75vh"
