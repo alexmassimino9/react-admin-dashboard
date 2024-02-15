@@ -3,4 +3,14 @@ import BarChart from "./BarChart";
 import PieChart from "./PieChart";
 import LineChart from "./LineChart";
 import GeographyChart from "./GeographyChart";
-export { Header, BarChart, PieChart, LineChart, GeographyChart };
+import ProgressCircle from "./ProgressCircle";
+import StatBox from "./StatBox";
+export {
+  Header,
+  BarChart,
+  PieChart,
+  LineChart,
+  GeographyChart,
+  ProgressCircle,
+  StatBox,
+};
