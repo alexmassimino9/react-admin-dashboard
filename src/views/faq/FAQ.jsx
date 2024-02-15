@@ -17,6 +17,7 @@ const FAQ = () => {
   return (
     <Box m="20px">
       <Header title="FAQ" subtitle="Frequently Asked Questions" />
+
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreOutlined />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
@@ -24,9 +25,71 @@ const FAQ = () => {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          This is where the accordion details are contained. Here, you can find
-          more insights and overviews of what this specific accordions purpose
-          is.
+          <Typography>
+            This is where the accordion details are contained. Here, you can
+            find more insights and overviews of what this specific accordions
+            purpose is.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreOutlined />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Accordion Summary
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This is where the accordion details are contained. Here, you can
+            find more insights and overviews of what this specific accordions
+            purpose is.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreOutlined />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Accordion Summary
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This is where the accordion details are contained. Here, you can
+            find more insights and overviews of what this specific accordions
+            purpose is.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreOutlined />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Accordion Summary
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This is where the accordion details are contained. Here, you can
+            find more insights and overviews of what this specific accordions
+            purpose is.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreOutlined />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Accordion Summary
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This is where the accordion details are contained. Here, you can
+            find more insights and overviews of what this specific accordions
+            purpose is.
+          </Typography>
         </AccordionDetails>
       </Accordion>
     </Box>
