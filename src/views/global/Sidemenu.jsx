@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Menu, MenuItem, Sidebar } from "react-pro-sidebar";
-// import "react-pro-sidebar/dist/styles/*.ts";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
@@ -42,9 +41,12 @@ const Sidemenu = () => {
   console.log("selected: ", selected);
   return (
     <Box
+      height="100%"
       sx={{
         "& .css-dip3t8": {
           background: `${colors.primary[400]} !important`,
+          height: "100%",
+          marginBottom: "0",
         },
         "& .ps-menu-icon": {
           backgroundColor: "transparent !important",
@@ -60,7 +62,7 @@ const Sidemenu = () => {
         },
       }}
     >
-      <Sidebar collapsed={isCollapsed}>
+      <Sidebar collapsed={isCollapsed} height="100%">
         <Menu iconShape="square">
           {/* LOGO AND MENU ICON */}
           <MenuItem
