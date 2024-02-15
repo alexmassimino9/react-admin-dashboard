@@ -8,7 +8,7 @@ import { Calendar } from "./calendar";
 import { FAQ } from "./faq";
 import { Bar } from "./bar";
 import { Pie } from "./pie";
-
+import { Line } from "./line";
 export {
   Sidemenu,
   Topbar,
@@ -21,4 +21,5 @@ export {
   FAQ,
   Bar,
   Pie,
+  Line,
 };
