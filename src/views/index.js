@@ -6,6 +6,9 @@ import { Invoices } from "./invoices";
 import { Form } from "./form";
 import { Calendar } from "./calendar";
 import { FAQ } from "./faq";
+import { Bar } from "./bar";
+import { Pie } from "./pie";
+
 export {
   Sidemenu,
   Topbar,
@@ -16,4 +19,6 @@ export {
   Form,
   Calendar,
   FAQ,
+  Bar,
+  Pie,
 };

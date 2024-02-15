@@ -1,3 +1,4 @@
 import Header from "./Header";
-
-export { Header };
+import BarChart from "./BarChart";
+import PieChart from "./PieChart";
+export { Header, BarChart, PieChart };

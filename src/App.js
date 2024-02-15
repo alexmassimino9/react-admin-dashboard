@@ -7,8 +7,8 @@ import {
   Team,
   Invoices,
   Contacts,
-  Bar,
   Form,
+  Bar,
   Line,
   Pie,
   FAQ,
@@ -35,8 +35,8 @@ const App = () => {
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
-              {/* <Route path="/bar" element={<Bar />} /> */}
-              {/* <Route path="/pie" element={<Pie />} /> */}
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/pie" element={<Pie />} />
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
