@@ -5,6 +5,7 @@ import { Contacts } from "./contacts";
 import { Invoices } from "./invoices";
 import { Form } from "./form";
 import { Calendar } from "./calendar";
+import { FAQ } from "./faq";
 export {
   Sidemenu,
   Topbar,
@@ -14,4 +15,5 @@ export {
   Invoices,
   Form,
   Calendar,
+  FAQ,
 };
