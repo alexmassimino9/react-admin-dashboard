@@ -32,7 +32,7 @@
 <h3>Installation</h3>
 <pre>
 <code># Clone the repository
-git clone https://github.com/your-repository/react-admin-dashboard.git
+git clone https://github.com/alexmassimino9/react-admin-dashboard.git
 
 # Navigate to the project directory
 cd react-admin-dashboard
