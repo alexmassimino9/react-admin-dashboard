@@ -1,4 +1,4 @@
-<h1>Simple React Admin Dashboard</h1>
+<h1>React Admin Dashboard</h1>
 
 <p>
   <img src="https://img.shields.io/badge/react-17.0.2-blue.svg" alt="React Version" />
